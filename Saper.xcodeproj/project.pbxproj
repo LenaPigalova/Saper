@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845E2A841EAF5304006CFDCB /* InitGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E2A831EAF5304006CFDCB /* InitGame.m */; };
+		845E2A871EAF6B4E006CFDCB /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E2A861EAF6B4E006CFDCB /* MenuViewController.m */; };
+		84DB00311EAA329B00C31892 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB00301EAA329B00C31892 /* main.m */; };
+		84DB00341EAA329B00C31892 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB00331EAA329B00C31892 /* AppDelegate.m */; };
+		84DB00371EAA329B00C31892 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB00361EAA329B00C31892 /* ViewController.m */; };
+		84DB003A1EAA329B00C31892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DB00381EAA329B00C31892 /* Main.storyboard */; };
+		84DB003C1EAA329B00C31892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DB003B1EAA329B00C31892 /* Assets.xcassets */; };
+		84DB003F1EAA329B00C31892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DB003D1EAA329B00C31892 /* LaunchScreen.storyboard */; };
+		84DB004C1EAA33D300C31892 /* ButtonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB004B1EAA33D300C31892 /* ButtonData.m */; };
+		84DB004F1EAB2AE100C31892 /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB004E1EAB2AE100C31892 /* GameData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		845E2A821EAF5304006CFDCB /* InitGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitGame.h; sourceTree = "<group>"; };
+		845E2A831EAF5304006CFDCB /* InitGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitGame.m; sourceTree = "<group>"; };
+		845E2A851EAF6B4E006CFDCB /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		845E2A861EAF6B4E006CFDCB /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		84DB002C1EAA329B00C31892 /* Saper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DB00301EAA329B00C31892 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84DB00321EAA329B00C31892 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84DB00331EAA329B00C31892 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84DB00351EAA329B00C31892 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84DB00361EAA329B00C31892 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84DB00391EAA329B00C31892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DB003B1EAA329B00C31892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DB003E1EAA329B00C31892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DB00401EAA329C00C31892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DB004A1EAA33D300C31892 /* ButtonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonData.h; sourceTree = "<group>"; };
+		84DB004B1EAA33D300C31892 /* ButtonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonData.m; sourceTree = "<group>"; };
+		84DB004D1EAB2AE100C31892 /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
+		84DB004E1EAB2AE100C31892 /* GameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DB00291EAA329B00C31892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DB00231EAA329B00C31892 = {
+			isa = PBXGroup;
+			children = (
+				84DB002E1EAA329B00C31892 /* Saper */,
+				84DB002D1EAA329B00C31892 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DB002D1EAA329B00C31892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DB002C1EAA329B00C31892 /* Saper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DB002E1EAA329B00C31892 /* Saper */ = {
+			isa = PBXGroup;
+			children = (
+				84DB00461EAA333800C31892 /* Model */,
+				84DB00321EAA329B00C31892 /* AppDelegate.h */,
+				84DB00331EAA329B00C31892 /* AppDelegate.m */,
+				845E2A851EAF6B4E006CFDCB /* MenuViewController.h */,
+				845E2A861EAF6B4E006CFDCB /* MenuViewController.m */,
+				84DB00351EAA329B00C31892 /* ViewController.h */,
+				84DB00361EAA329B00C31892 /* ViewController.m */,
+				84DB00381EAA329B00C31892 /* Main.storyboard */,
+				84DB003B1EAA329B00C31892 /* Assets.xcassets */,
+				84DB003D1EAA329B00C31892 /* LaunchScreen.storyboard */,
+				84DB00401EAA329C00C31892 /* Info.plist */,
+				84DB002F1EAA329B00C31892 /* Supporting Files */,
+			);
+			path = Saper;
+			sourceTree = "<group>";
+		};
+		84DB002F1EAA329B00C31892 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DB00301EAA329B00C31892 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DB00461EAA333800C31892 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84DB004A1EAA33D300C31892 /* ButtonData.h */,
+				84DB004B1EAA33D300C31892 /* ButtonData.m */,
+				84DB004D1EAB2AE100C31892 /* GameData.h */,
+				84DB004E1EAB2AE100C31892 /* GameData.m */,
+				845E2A821EAF5304006CFDCB /* InitGame.h */,
+				845E2A831EAF5304006CFDCB /* InitGame.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DB002B1EAA329B00C31892 /* Saper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DB00431EAA329C00C31892 /* Build configuration list for PBXNativeTarget "Saper" */;
+			buildPhases = (
+				84DB00281EAA329B00C31892 /* Sources */,
+				84DB00291EAA329B00C31892 /* Frameworks */,
+				84DB002A1EAA329B00C31892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Saper;
+			productName = Saper;
+			productReference = 84DB002C1EAA329B00C31892 /* Saper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DB00241EAA329B00C31892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84DB002B1EAA329B00C31892 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 84DB00271EAA329B00C31892 /* Build configuration list for PBXProject "Saper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DB00231EAA329B00C31892;
+			productRefGroup = 84DB002D1EAA329B00C31892 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DB002B1EAA329B00C31892 /* Saper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DB002A1EAA329B00C31892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DB003F1EAA329B00C31892 /* LaunchScreen.storyboard in Resources */,
+				84DB003C1EAA329B00C31892 /* Assets.xcassets in Resources */,
+				84DB003A1EAA329B00C31892 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DB00281EAA329B00C31892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DB00371EAA329B00C31892 /* ViewController.m in Sources */,
+				84DB004F1EAB2AE100C31892 /* GameData.m in Sources */,
+				84DB004C1EAA33D300C31892 /* ButtonData.m in Sources */,
+				845E2A841EAF5304006CFDCB /* InitGame.m in Sources */,
+				845E2A871EAF6B4E006CFDCB /* MenuViewController.m in Sources */,
+				84DB00341EAA329B00C31892 /* AppDelegate.m in Sources */,
+				84DB00311EAA329B00C31892 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84DB00381EAA329B00C31892 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DB00391EAA329B00C31892 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DB003D1EAA329B00C31892 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DB003E1EAA329B00C31892 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DB00411EAA329C00C31892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DB00421EAA329C00C31892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DB00441EAA329C00C31892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Saper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lena.Saper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84DB00451EAA329C00C31892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Saper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lena.Saper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DB00271EAA329B00C31892 /* Build configuration list for PBXProject "Saper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DB00411EAA329C00C31892 /* Debug */,
+				84DB00421EAA329C00C31892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DB00431EAA329C00C31892 /* Build configuration list for PBXNativeTarget "Saper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DB00441EAA329C00C31892 /* Debug */,
+				84DB00451EAA329C00C31892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DB00241EAA329B00C31892 /* Project object */;
+}
